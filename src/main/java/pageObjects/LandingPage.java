@@ -11,7 +11,7 @@ public class LandingPage {
     public WebDriver driver;
 
     //By title=By.cssSelector(".text-center>h2");
-    By title = By.xpath("//*[@id=\"header-part\"]/div[2]/div/div/div[1]/div/a/img");
+    By title = By.xpath("//*[@id=\"header-part\"]/div[2]/div/div/div[2]/div/div[2]/a");
     //Simplifying web element locators to a single word
 
     By popup = By.xpath("//button[text()= 'NO THANKS']");

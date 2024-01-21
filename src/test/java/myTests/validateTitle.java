@@ -43,7 +43,7 @@ public class validateTitle extends base {
     {
         //Creating object to that class and invoke methods of it
         LandingPage l=new LandingPage(driver);
-        Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
+        Assert.assertEquals(l.getTitle().getText(), "Access all our Courses");
         //Comparing the title of LandingPage to the actual text on screen. 2 arguments separated by comma
         log.info("Successfully validated Text message");
         System.out.println("Test completed");
